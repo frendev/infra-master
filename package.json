@@ -1,0 +1,44 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.0",
+    "@bradgarropy/next-seo": "^1.2.0",
+    "@contentful/rich-text-plain-text-renderer": "^15.12.1",
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@tanstack/react-query": "^4.6.0",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.6",
+    "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
+    "next": "latest",
+    "next-sitemap": "^3.1.30",
+    "next-with-apollo": "^5.3.0",
+    "npm": "^8.19.2",
+    "react": "18.1.0",
+    "react-alice-carousel": "^2.6.4",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.34.2",
+    "react-icons": "^4.6.0",
+    "react-query": "^3.39.2",
+    "sib-api-v3-sdk": "^8.4.2",
+    "sib-api-v3-typescript": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2",
+    "typescript": "4.7.2"
+  }
+}

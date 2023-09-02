@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: Poppins, sans-serif;
+  scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.circle {
+  clip-path: circle(300px at center -190px);
+}
+
+.circle2 {
+  clip-path: circle(400px at center -290px);
+}
+
+br {
+  margin: 10px;
+  line-height: 5em; /* chrome for instance */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+strong {
+  font-weight: 600;
+}
+
+li {
+  list-style: disc;
+}
+
+ul {
+  padding: inherit;
+}
+
+@layer components {
+  .circle {
+    clip-path: circle(280px at center -200px);
+  }
+
+  .circle-lg {
+    clip-path: circle(450px at center -340px);
+  }
+}
+
+@layer {
+  .custom-img {
+    background-image: url('../public/assets/sap-1.png');
+  }
+
+  .input-field {
+    @apply bg-gray-100 text-gray-900 rounded-lg focus:outline-none w-full;
+  }
+
+  .underline-effect {
+    @apply before:w-0 before:h-1 before:absolute before:bottom-0 before:right-0 before:bg-black before:transition-all before:duration-500 before:delay-100 hover:before:w-full hover:before:left-0;
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-full uppercase;
+  }
+
+  .body-text {
+    @apply md:text-base text-sm;
+  }
+
+  .heading {
+    @apply text-2xl md:text-3xl;
+  }
+
+  input {
+    @apply font-bold;
+  }
+}

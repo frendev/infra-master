@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://inframaster.co.in
+
+# Sitemaps
+Sitemap: https://inframaster.co.in/sitemap.xml
